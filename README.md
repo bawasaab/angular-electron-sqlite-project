@@ -9,7 +9,8 @@
 	npm -v
 
 4. install githubs package electronjs globally
-	npm install electron -g
+	npm install electron -g --verbose --unsafe-perm=true --allow-root
+
 
 5. check electronjs installed
 	electron -v
